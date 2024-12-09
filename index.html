@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+
+    <nav id="desktop-nav">
+        <div class="logo"> <span class="first"> Hi</span>mesh</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Himesh</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> 
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+
+                <img src="./assests/Untitled-1.png" alt="himesh propic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1"> Hello, I'm </p>
+            <h1 class="title">Himesh</h1>
+            <p class="section__text__p2"> Software Engineer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assests/cv1.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assests/linkedin.png" alt="my linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/himesh-sithum-62a6382b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'">
+                <img src="./assests/github.png" alt="my github profile" class="icon" onclick="location.href='https://github.com/HIMESH-BCS0006'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+
+        <p class="section__text__p1">Get to know More</p>
+        <h1 class="title"> About ME</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assests/WhatsApp Image 2024-12-09 at 19.24.29_7dffc48a.jpg" alt="profile-pic" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assests/experience.png" alt="expierience icon" class="icon">
+                        <h3>Expierience</h3>
+                        <p>2nd Year <br> Undergraduate</p>
+                    </div>
+                    <div class="details-container">
+                         <img src="./assests/education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>Kotelawala defence University <br> Open University certification</p>
+                    </div>
+        
+                </div>
+                <div class="text-container"><br><br>
+                    <p>I'm Himesh sithum, from Galle Sri Lanaka. I am a proud product of Mahinda college Galle. I did my AL s in physical science stream and now doing my BSc. in Computer science from Kotelawala Defence University in Sri Lanak.I'm someone who loves learning, especially when it comes to unraveling new concepts and applying them in creative ways. I enjoy breaking down complex ideas and making sense of how they work in the bigger picture. Every challenge is just another opportunity to grow, and I believe that with curiosity and persistence, there's nothing I can't figure out. I'm all about progress, not perfection, and I take pride in the steps I take every day toward becoming the best version of myself! </p>
+                </div>
+            </div>
+        </div>
+       <!-- <img src="./assests/arrow.png" alt="arrow icon" class="icon-arrow" onclick="location.href='./#skills'"> -->
+    </section>
+    <section id="skills">
+        <p class="section__text__p1"> Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="Skills-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="Skills-sub-title">programming languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assests/checkmark.png" alt="skills-icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="skills-icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="skills-icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="skills-icon" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>expierienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="skills-icon" class="icon">
+                            <div>
+                                <h3>C++</h3>
+                                <p>intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="skills-icon" class="icon">
+                            <div>
+                                <h3>PHP</h3>
+                                <p>basic</p>
+                            </div>
+                        </article>
+                       
+                       </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="Skills-sub-title">skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assests/checkmark.png" alt="skills-icon" class="icon">
+                            <div>
+                                <h3>Organizing</h3>
+                                <p>expierienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="skills-icon" class="icon">
+                            <div>
+                                <h3>Communication</h3>
+                                <p>expierienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="skills-icon" class="icon">
+                            <div>
+                                <h3>team Work</h3>
+                                <p>expierienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="skills-icon" class="icon">
+                            <div>
+                                <h3>Leadership</h3>
+                                <p>expierienced</p>
+                            </div>
+                        </article>
+                       
+                       
+                       </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Reccent</p>
+        <h1 class="title"> Projects</h1>
+        <div class="Skills-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assests/project-1.png" alt=" project 1" class="project-img">
+                </div>
+                <h2 class="Skills-sub-title project-title">Project 1</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/HIMESH-BCS0006/Catalog-System'">Github</button>
+                   <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>-->
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assests/project-2.png" alt=" project 2" class="project-img">
+                </div>
+                <h2 class="Skills-sub-title project-title">Project 2</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/HIMESH-BCS0006/Library-git'">Github</button>
+                   <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>-->
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assests/project-3.png" alt=" project 3" class="project-img">
+                </div>
+                <h2 class="Skills-sub-title project-title">Project 3</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+                   <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>-->
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1"> Get in Touch</p>
+        <h1 class="title"> Contact me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assests/email.png" alt="email-icon" class="icon contact-icon">
+                <p><a href="mailto:himesh0424@gmail.com">himesh0424@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assests/linkedin.png" alt="linkedin-icon" class="icon cntact-icon">
+                <p><a href="http://www.linkedin.com">Linkedin</a></p>
+            </div>
+        </div>
+        <div class="form-container">
+        <form  method="post" name="submit-to-google-sheet">
+            <h1 class="title">Leave a Message</h1>
+            <div class="form-container-1">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="  Enter your name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="  Enter email" required><br><br>
+            <label for="messege">Message:</label><br>
+            <textarea name="message" id="message" required></textarea><br><br><br>
+            <button class="btn btn-color-2">Send</button>
+            </div>
+            <span id="msg"></span>
+        </form>
+        
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 himesh sithum All right reserved</p>
+    </footer>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxJpwlIbs2rxOs8LkDtog2_IvuRAfgwJVfK2nqowgyiQZB6Ln4uwWf6NzAoyB75wcACSw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML =" "
+                }, 5000)
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    <script  src="script.js">
+        
+    </script>
+</body>
+</html>
